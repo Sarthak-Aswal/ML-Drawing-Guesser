@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.content h2{
+    background-color: #17252A;
+    color: aliceblue;
+    text-align: center;
+    padding: 2%;
+    font-size: 30px;
+}
+#inputForm{
+    text-align: center;
+    margin-top: 10%;
+}
+body{
+    background-color: #3AAFA9;
+}
+#startButton{
+    width: 100px;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+    padding: 3px 10px;
+    font-size: 20px;
+    background-color: #17252A;
+    transition: background-color 0.25s;
+    color: aliceblue;
+}
+#startButton:hover{
+    background-color: #305866;
+}
+#inputForm input{
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 20px 5px;
+    width: 200px;
+}
+#inputForm h3{
+    font-size: 250%;
+    color: #FEFFFF;
+}
+#sketchPad{  
+    margin: 30px;
+    background-color: white;
+}
+#welcomeMessage{
+    color: white;
+}
+#sketchContainer{
+    display: none;
+    text-align: center;
+    padding: 5%;
+    font-size: 1.5em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn{
+    border-radius: 15px;
+    padding: 2px 20px;
+    font-size: 20px;
+    transition: background-color 0.25s;
+    background-color: #17252A;
+    color: #DEF2F1;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #305866;
+}
+

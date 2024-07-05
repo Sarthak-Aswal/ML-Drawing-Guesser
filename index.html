@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Drawing</title>
+</head>
+<body>
+    <div class="content">
+        <h2>Drawing guesser</h2>
+        <div id="inputForm">
+            <h3>Hi user please enter your name below </h3>
+            <input type="text" placeholder="Enter your name" id="inputBox">
+            <button id="startButton" class="btn">Start</button>
+        </div>
+        <div id="sketchContainer">
+            <h3 id="welcomeMessage"></h3>
+            
+            <canvas id="sketchPad" height="400px" width="400px"></canvas>
+            <div class="buttons">
+            <button class="btn" id="undoButton">Undo</button>
+            <button class="btn" id="clearButton">Clear</button>
+            <button class="btn" id="guessButton">Guess</button>
+            </div>
+        </div>
+        
+    </div>
+        
+    
+    <script src="index.js"></script>
+    <script src="draw.js"></script>
+    
+    
+</body>
+
+</html>
